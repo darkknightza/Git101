@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Profile()
         {
-            ViewData["Message"] = "Your Profile";
+            ViewData["Message"] = "Your Profile Git Branch";
 
             return View();
         }
